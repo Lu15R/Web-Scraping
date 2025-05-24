@@ -1,0 +1,29 @@
+{
+  "name": "practica_1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Este proyecto es un scraper web desarrollado en Node.js que recopila citas del sitio \r [https://quotes.toscrape.com](https://quotes.toscrape.com), desde la página 1 hasta la página 10. Por cada cita se extraen:",
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "json2csv": "^6.0.0-alpha.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "xlsx": "^0.18.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lu15R/Web-Scraping.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Lu15R/Web-Scraping/issues"
+  },
+  "homepage": "https://github.com/Lu15R/Web-Scraping#readme"
+}
